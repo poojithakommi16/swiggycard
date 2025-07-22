@@ -1,0 +1,93 @@
+  
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+  *{
+    padding:0;
+    margin:0;
+    font-family: "Nunito", sans-serif;
+  }
+  .cardcontainer{
+    width:400px;
+    height:400px;
+    display:flex;
+    margin:20px 0px 0px 20px;
+    overflow:hidden;
+    box-shadow:6px 6px 6px 0 gray;
+    border-radius:5px 15px 5px 5px;
+  }
+  .card{
+    height:100%;
+    width:100%;
+    position:relative;
+  }
+  .image{
+    width:100%;
+    height:70%;
+    background-size:cover;
+    position:relative;
+    border-radius:15px;
+  }
+  .discount{
+    position:absolute;
+    left:8px;
+    bottom:148px;
+    font-size:25px;
+    color:white;
+    font-weight:bold;
+    font-family:serif;
+
+  }
+  .content{
+    padding:9px;
+  }
+.title{
+  font-size:24px;
+  color:black;
+  font-weight:bold;
+  margin-bottom:2px;
+}
+.fa-star{
+  color:aquamarine;
+  font-size:17px;
+}
+.rating{
+  font-size:20px;
+  color:black;
+  text-align:center;
+  margin-right:0.3rem;
+}
+.fa-circle{
+  font-size:5px;
+  color:black;
+  text-align:center;
+}
+.time{
+  margin-left:0.3rem;
+  font-size:21px;
+  color:black;
+  font-weight:bold;
+}
+.ratetime{
+  margin-bottom:2px;
+  display:flex;
+}
+.items{
+  font-size:18px;
+  color:gray;
+  margin-bottom:2px;
+}
+.locality{
+  font-size:18px;
+  color:gray;
+}
+.cardcontainer:hover{
+  transform:scale(0.9);
+  cursor:pointer;
+}
+
+@media screen and (max-width:400px) {
+  .cardcontainer{
+  width:90%;
+  height:100%;
+  font-size:1.5rem;
+  }
+  }  
